@@ -197,17 +197,17 @@ gaps outer 8
 gaps inner 8
 smart_gaps on
 #i3lock
-bindsym $mod+shift+x exec i3lock -i /home/grzybomir/quiop/paper/most_lock.png
+bindsym $mod+shift+x exec i3lock -i /home/user/quiop/paper/most_lock.png
 
 bindsym $mod+b exec brave
 #paper
-exec_always feh --bg-scale /home/grzybomir/quiop/paper/reimu_apple.png
-#exec_always feh --bg-scale /home/grzybomir/quiop/paper/lilly_paper.png
-#exec_always feh --bg-scale /home/grzybomir/quiop/paper/cosnwmlol.jpg
+exec_always feh --bg-scale /home/user/quiop/paper/reimu_apple.png
+#exec_always feh --bg-scale /home/user/quiop/paper/lilly_paper.png
+#exec_always feh --bg-scale /home/user/quiop/paper/cosnwmlol.jpg
 
 #exec_always xrandr --output DVI-D-1 --left-of DVI-D-0
 exec_always picom --config ~/.config/picom/picom.conf
 exec_always xmodmap -e "keycode 105=period"
 exec_always mount /dev/sdb1 ~/dysk2
-bindsym $mod+F5 scrot -m /home/grzybomir/quiop/sshot/screen_shot_2monitors.png 
-bindsym $mod+F6 exec scrot /home/grzybomir/quiop/sshot/screenshot.png
+bindsym $mod+F5 scrot -m /home/user/quiop/sshot/screen_shot_2monitors.png 
+bindsym $mod+F6 exec scrot /home/user/quiop/sshot/screenshot.png
